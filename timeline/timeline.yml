@@ -27,7 +27,7 @@ rows:
         until: 2026-12-01
         title: Writing the proposal
         info: |
-          - Write a research proposal based on these instructions.
+          - Write a research proposal based on <a href='https://soriclucija.github.io/rsip-pop/proposal.html' target='_blank'>these instructions</a>.
           - Hand in group contract & non-disclosure agreement during this time.
           - Send your chosen variables as soon as possible, preferably a week before the deadline in case I need to add a new questionnaire for them.
           - Ask questions if anything is unclear.
