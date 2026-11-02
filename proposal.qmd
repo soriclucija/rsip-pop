@@ -1,0 +1,167 @@
+# Proposal
+
+A research proposal is one of the most important parts of a research project. It formulates a theoretical background and a specific plan you aim to follow.
+
+## Why do we need a research proposal? {.unnumbered}
+
+Every project, academic or not, needs a plan. A research proposal is essentially a formalized, written plan of your future steps.
+
+When doing academic research, there are often many roads you can take - or many ways a project can go. This is true for *any* project, too. For example, if you want to paint a wall, you can choose between many colors! However, some of these options are more logical than others. Maybe you do not like some of the colors, maybe some colors are not available, maybe some colors clash with the furniture you own... In order to move forward with your project you have to make some decisions (i.e., choose a color), and you have to be able to explain this decision (at least to yourself).
+
+A research proposal helps you think ahead since it asks you to make certain decisions prior to starting. By completing this step, you will save your future self **a lot** of time.
+
+## How do we write a research proposal in a group? {.unnumbered}
+
+1.  Read the literature previously shared with you. You can read all of it, or you can split up the work with your group members.
+
+2.  Find a set of variables you are **genuinely** interested in exploring and share them with your group.
+
+3.  Think about the measures and analyses you can use **to research these variables**. Refer to the planned questionnaires and scales\*. Share this with your group.
+
+    *\* Do not plan to mix questionnaires into one variable, and do not split them up unless you have a good reason (or a published paper provided a good argument for it).*
+
+4.  Together with your group, decide which variables to go with. Try to assess if your statistical knowledge can properly research these variables.
+
+5.  Formulate a research question and hypotheses with this set of variables.
+
+6.  Write all the plans up, together with all other parts of the proposal.
+
+In practice, it takes a few tries to **complete step 4.** It is likely that you will have to go through the steps 2 and 3 multiple times, each time reading more literature in order to improve your research question. This is **normal** and part of the process.
+
+## What do we include in a research proposal? {.unnumbered}
+
+Please only follow the below guidelines when writing your proposal. The word count is an estimate, and you are welcome to go a bit over if needed. However, try to be as concise as possible while not losing important information.
+
+There is no minimum or maximum amount of citations you should include. However, it is unlikely for the proposal to be written according to the guidelines without a substantial amount of citations.
+
+### Scientific background (\~200 words) {.unnumbered}
+
+Briefly describe the current state of the literature that led to your project idea. Provide definitions/descriptions of relevant concepts. Give more attention to a few key studies that directly address your research question.
+
+### Objectives & implications (\~150 words) {.unnumbered}
+
+Clearly describe the aims of your project. Describe how your research complements the current literature, or how it fits a gap. Argue why this is important to do. You can argue for real-life relevance, too, not just for scientific benefit. These should all follow from the previously described background. You can include **your research question** here.
+
+::::: {.card .card-gold}
+::: card-header
+What even is a research question?
+:::
+
+::: card-body
+It is generally defined as the "question" that your project aims to solve. This definition, while correct, probably does not help you much in constructing your own research question. Below I will share tips on how to think about research questions.
+
+**What a research question IS?**
+
+- A **statement** that
+
+- Is **short and clear** and that
+
+- Can be used to **quickly and accurately** tell the reader what the goal of your work is
+
+**What a research question is NOT?**
+
+- A question
+
+  A research question can be in **any form**. In scientific literature, a research question is rarely written out in the form of a question.
+
+  Some examples:
+
+  > We aimed to explore *whether a leads to b*.
+  >
+  > Our research investigates *how x changes y when...*
+  >
+  > This work answers the following question: *How does*...?
+
+- A value judgment
+
+  A research question cannot be biased. It has to be as neutral as possible. Therefore, you can never research why something is *good* or *bad.*
+
+- General
+
+  A research question **only guides** a scientific project, and is **only informative** of the work you will be doing within it. Therefore, it does not reflect potential implications and it should not promise something your project will not be solving.
+:::
+:::::
+
+### Hypotheses (as many words as needed) {.unnumbered}
+
+Formulate clear, specific hypotheses based on your research question. You can have multiple hypotheses, but you can also have just one - it is fully dependent on your question. For each hypothesis, state an expectation, explain how this expectation follows from previous literature.
+
+::::: {.card .card-gold}
+::: card-header
+How do I write a good hypothesis?
+:::
+
+::: card-body
+You start with a **hook of sorts** followed by a general **topic introduction**. This topic introduction is put into context through a **literature review** where you show what we know now, what we could know, and why this matters. Finally, you **show how your work helps us know more**.
+
+An expectation (or a hypothesis) needs to be *specific* - it is not enough to state you expect something to be different.
+
+Example of a **bad** expectation:
+
+> I hypothesize I will/expect to find *a difference* in **trust in science** between [the two groups]{.underline}.
+
+Example of a **good** expectation:
+
+> I hypothesize I will/expect to find *lower scores* (this specifies the difference) on **questionnaires measuring beliefs in science** (this specifies the variable and the measure) in [men compared to women]{.underline} (this specifies the direction of difference).\*
+
+*\* This would be even better if you state the exact difference you expect. E.g., you expect to find scores that are at least 5 points lower. Remember: **be as specific as possible.***
+:::
+:::::
+
+### Methods (\~400 words) {.unnumbered}
+
+For each section, provide a clear description and motivation for the choice made.
+
+#### Design {.unnumbered}
+
+Briefly address the study design (e.g., cross-sectional, longitudinal). State what type of measures will be used (e.g., self-reports) and where data collection will take place (e.g., online).
+
+#### Participants {.unnumbered}
+
+Indicate the expected characteristics of the sample, namely mention the sample size and the population you want to sample. The population will most likely be undergraduate students at Tilburg University. However, in case of availability, the population could focus on other groups (e.g., adults, specific genders, etc.). This is to be determined.
+
+#### Measures {.unnumbered}
+
+Describe each variable of your study, how it is measured, and what the expected output of the measure will be (e.g., a singular number, a score, a category). For questionnaires, include the name of the questionnaires, scale values (e.g., Likert scale from 1 to 5, with 1 =... , 2 = ...), provide examples of questions. Always cite the **original creator of the questionnaire**. Provide psychometric data (i.e., reliability metrics such as Cronbach's alpha) of questionnaires if available in previous work.
+
+#### Statistical analysis {.unnumbered}
+
+##### Program {.unnumbered}
+
+Indicate the program and the version of the program you plan to use for your analyses. You can use any program you want, including SPSS and R. It is likely that all of you will use SPSS, but I can also guide you through analyses in other software.
+
+##### Power {.unnumbered}
+
+Execute and report a power analysis. This is an important step at this stage. You can use G\*Power software. Provide a screenshot of the output you got.
+
+##### Analysis {.unnumbered}
+
+Indicate which statistical tests you will use, and describe the outcomes that would confirm or reject your hypothesis. The statistical test you choose has to be able to answer your hypothesis. If you are in doubt, reach out - or change your research question.
+
+It is possible your research question may need a statistical method you are not yet familiar with. In that case you **have to** change your research question. Be mindful of the questions that can be answered with your current statistical knowledge. It is always better to have correct but simple analyses instead of incorrect but complicated ones.
+
+## How do we format the proposal? {.unnumbered}
+
+Use the standard formatting: APA-style, Times New Roman, 12-point font, line spacing 2.0. Include page numbers.
+
+## How do we split up the work? {.unnumbered}
+
+This is entirely up to you. However, it is important to consider the implications of assigning the entire task to a sub-group or an individual. Below I note some things you could consider.
+
+- The first three sections of a proposal will serve as a **basis** for your introduction section. The introduction should be built on the ideas included here. Some parts can also be repeated word-for-word, and some **have to** be repeated (e.g., the hypotheses).
+
+- The methods section of the proposal will closely mirror your general methods section. The project's methods section will be *very* similar to this one.
+
+- What is written in a proposal should not be changed much in the future. Meaning, if there are no large issues with your proposal, your future tasks will **fully depend** on what you included in there. This means that it would be optimal for the **entire** group to participate in (at least) the brainstorming part to ensure all of you agree on the direction you want to take.
+
+- In the next group meeting, you will be presenting this proposal. This is because a presentation is an **integral, graded** part of this course, and presentation skills require a lot of practice. I would suggest having 1-2 members present, and ideally these will not be the members that wrote the proposal. All of you should be able to talk about the ideas behind it.
+
+## Deadline and submission {.unnumbered}
+
+The deadline for the completed proposal is **December 2nd at 17:00.**
+
+The proposal is submitted through email to me. This is the official way to submit it. Please submit it in Word (not PDF) format.
+
+## Questions {.unnumbered}
+
+If you have any questions regarding the choice of variables, your research question, hypotheses, power, or analyses - **please reach out**.

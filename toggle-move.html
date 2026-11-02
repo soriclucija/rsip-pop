@@ -1,0 +1,9 @@
+<script>
+document.addEventListener("DOMContentLoaded", function () {
+  const toggle = document.querySelector(".quarto-color-scheme-toggle");
+  const toc = document.querySelector("#toc-title") || document.querySelector("nav#TOC");
+  if (toggle && toc) {
+    toc.parentNode.insertBefore(toggle, toc);
+  }
+});
+</script>

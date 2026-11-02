@@ -1,0 +1,188 @@
+/* ---------- Schedule timeline ---------- */
+.tl {
+  --tl-navy: #002f59;      /* matches $navy in custom.scss */
+  --tl-phase: #ae6e00;     /* matches $gold */
+  --tl-meeting: #2a9fd8;
+  --tl-deadline: #cc0000;
+  --tl-task: #3c7a47;
+  --tl-break: #7a7a7a;     /* colour of the box for break periods */
+  --tl-empty: #e6e6e6;
+  --tl-past: #7a7a7a;      /* coloured squares in months that are over */
+  --tl-bg: var(--bs-body-bg, #fcfcfc); /* page background (for the fixed column) */
+  --tl-month-text: #fff;
+  --tl-panel-bg: #fff;
+  --tl-panel-text: #000;
+  --tl-muted: #666;
+  --tl-cell: 40px;         /* width of one square */
+  margin: 1rem 0 2rem;
+}
+
+.tl-scroll {
+  overflow-x: auto;
+  padding-bottom: 6px;
+  /* scrollbar in the site's navy */
+  scrollbar-color: var(--tl-navy) var(--tl-empty);
+  scrollbar-width: thin;
+}
+.tl-scroll::-webkit-scrollbar { height: 8px; }
+.tl-scroll::-webkit-scrollbar-track { background: var(--tl-empty); border-radius: 4px; }
+.tl-scroll::-webkit-scrollbar-thumb { background: var(--tl-navy); border-radius: 4px; }
+
+.tl-grid {
+  position: relative;      /* for the highlight rectangles */
+  display: grid;
+  grid-template-columns: max-content repeat(var(--tl-weeks), var(--tl-cell));
+  gap: 4px;
+  width: max-content;
+}
+
+/* fixed left column */
+.tl-label,
+.tl-corner {
+  position: sticky;
+  left: 0;
+  z-index: 3;
+  background: var(--tl-bg);
+  padding-right: 12px;
+}
+/* solid mask behind the fixed column, also covering the gaps between rows,
+   so nothing that scrolls underneath peeks through */
+.tl-label::before,
+.tl-corner::before {
+  content: "";
+  position: absolute;
+  top: -4px;
+  bottom: -4px;
+  left: -200px;
+  right: -4px;
+  background: var(--tl-bg);
+  z-index: -1;
+}
+
+.tl-label {
+  white-space: nowrap;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  font-weight: 600;
+  font-size: 1.05rem;
+  color: var(--tl-navy);
+}
+
+.tl-month {
+  background: var(--tl-navy);
+  color: var(--tl-month-text);
+  font-weight: 600;
+  text-align: center;
+  padding: 8px 4px;
+  margin-bottom: 8px;
+  border-radius: 2px;
+}
+.tl-month.is-past { opacity: .6; }
+
+.tl-cell {
+  height: 34px;
+  border: 0;
+  padding: 0;
+  background: var(--tl-empty);
+  font-size: 1.1rem;
+  line-height: 34px;
+  color: inherit;
+}
+.tl-cell.is-phase    { background: var(--tl-phase); }
+.tl-cell.is-meeting  { background: var(--tl-meeting); }
+.tl-cell.is-deadline { background: var(--tl-deadline); }
+.tl-cell.is-task     { background: var(--tl-task); }
+.tl-cell.is-past.is-phase,
+.tl-cell.is-past.is-meeting,
+.tl-cell.is-past.is-deadline,
+.tl-cell.is-past.is-task { background: var(--tl-past); }
+.tl-cell.is-break::after { content: "\2715"; }
+
+.tl-cell.is-clickable { cursor: pointer; }
+.tl-cell.is-clickable:hover { filter: brightness(1.1); }
+.tl-cell:focus-visible { outline: 2px solid var(--tl-navy); outline-offset: -2px; }
+
+.tl-gap { height: 22px; grid-column: 1 / -1; }
+
+/* selection: the selected block keeps its colour, all other blocks fade */
+.tl-grid.has-selection .tl-cell.is-clickable:not(.is-selected) { opacity: .35; }
+.tl-hl {
+  position: absolute;
+  z-index: 2;
+  border: 2px solid var(--tl-navy);
+  pointer-events: none;
+  box-sizing: border-box;
+}
+
+
+.tl-hint { color: var(--tl-muted); font-style: italic; margin-top: .75rem; }
+
+/* ---------- detail box (styled like the accordions) ---------- */
+.tl-panel {
+  --tl-c: var(--tl-navy);
+  margin-top: 1.25rem;
+  border: 1px solid var(--tl-c);
+  border-radius: 4px;
+  overflow: hidden;
+  background: var(--tl-panel-bg);
+}
+.tl-panel.is-phase    { --tl-c: var(--tl-phase); }
+.tl-panel.is-meeting  { --tl-c: var(--tl-meeting); }
+.tl-panel.is-deadline { --tl-c: var(--tl-deadline); }
+.tl-panel.is-task     { --tl-c: var(--tl-task); }
+.tl-panel.is-break    { --tl-c: var(--tl-break); }
+
+.tl-panel-header {
+  background: var(--tl-c);
+  color: #fff;
+  font-weight: 600;
+  padding: .55rem 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+}
+.tl-close {
+  border: 0;
+  background: #fff;
+  color: var(--tl-c);
+  width: 26px;
+  height: 26px;
+  border-radius: 50%;
+  padding: 0;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  flex-shrink: 0;
+}
+.tl-panel-body {
+  padding: 1rem;
+  color: var(--tl-panel-text);
+}
+.tl-panel-body > :last-child { margin-bottom: 0; }
+.tl-when { color: var(--tl-c); font-weight: 600; margin-bottom: .5rem; }
+
+/* ---------- dark mode (matches custom-dark.scss) ---------- */
+body.quarto-dark .tl {
+  --tl-navy: #8fb4f9;
+  --tl-phase: #d9a536;
+  --tl-break: #5a6472;
+  --tl-empty: rgba(255, 255, 255, .12);
+  --tl-past: #5a6472;
+  --tl-bg: #001b33;
+  --tl-month-text: #001b33;
+  --tl-panel-bg: #002845;
+  --tl-panel-text: #fff;
+  --tl-muted: #b8c4d6;
+}
+
+@media (max-width: 600px) {
+  .tl { --tl-cell: 32px; }
+  .tl-label { font-size: .9rem; }
+  .tl-month { font-size: .8rem; }
+}
+
+/* dark mode: date line slightly lighter for contrast */
+body.quarto-dark .tl-when { color: color-mix(in srgb, var(--tl-c), white 35%); }

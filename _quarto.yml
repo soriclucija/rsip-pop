@@ -1,0 +1,43 @@
+project:
+  type: book
+  output-dir: docs
+  resources:
+    - timeline/timeline.yml
+    - timeline/timeline.js
+
+book:
+  title: "Research Skills in Psychology: A Handbook"
+  sidebar:
+    title: "Research Skills in Psychology"
+    logo: uvt.png
+  chapters:
+    - index.qmd
+    - part: "Process"
+      chapters:
+        - proposal.qmd
+        #- introduction.qmd
+        #- methods.qmd
+        #- results.qmd
+        #- discussion.qmd
+        #- abstract.qmd
+    #- materials.qmd
+    - contact.qmd
+    - faq.qmd
+  page-footer: "by Lucija Sorić &copy; Tilburg University<br>last updated 26/11/02"
+
+bibliography: references.bib
+csl: apa.csl
+
+format:
+  html:
+    theme:
+      light: [simplex, custom.scss]
+      dark: [darkly, custom-dark.scss]
+    css: timeline/timeline.css
+    include-after-body: toggle-move.html
+  pdf:
+    documentclass: scrreprt
+
+editor: visual
+
+

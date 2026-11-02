@@ -1,0 +1,242 @@
+# ---------------------------------------------------------------
+# Schedule data — edit this file, not the JS/CSS.
+#
+# start / end:  first and last month shown (YYYY-MM).
+# Each month is drawn as 4 squares:
+#   days 1–7 → square 1, 8–14 → 2, 15–21 → 3, 22–end → 4
+#
+# Blocks that span time:   from: 2026-11-02   until: 2026-12-04
+# Single-day items:        date: 2026-11-04
+#
+# type:   phase (gold) | meeting (blue) | deadline (red)
+# info:   shown in the box when clicked. Markdown works
+#         (bold, lists, links). Use "|" for multi-line text.
+#
+# Coloured squares turn dark grey once their month is over.
+# ---------------------------------------------------------------
+
+start: 2026-11
+end: 2027-05
+
+rows:
+  - label: Proposal
+    type: phase
+    info: |
+    blocks:
+      - from: 2026-11-03
+        until: 2026-12-01
+        title: Writing the proposal
+        info: |
+          - Write a research proposal based on these instructions.
+          - Hand in group contract & non-disclosure agreement during this time.
+          - Send your chosen variables as soon as possible, preferably a week before the deadline in case I need to add a new questionnaire for them.
+          - Ask questions if anything is unclear.
+
+  - label: Data collection
+    type: phase
+    info: Placeholder description of the data collection phase.
+    blocks:
+      - from: 2026-12-04
+        until: 2026-12-06
+        title: Start data collection
+        info: Send out the Qualtrics survey to a small group.
+      - from: 2027-01-04
+        until: 2027-01-31
+        title: Continue data collection
+        info: Continue data collection. If the full sample is collected before the expected end-date, data collection is stopped. Otherwise it continues until 31 January 2027, or longer in case of insufficient sample.
+    breaks:
+      - from: 2026-12-08
+        until: 2026-12-31
+        title: Exam and holiday break
+        info: No work is expected during this time. However, if that suits your schedule better, the group is, of course, allowed to organize themselves to complete certain parts during this time. However, I will not be able to assist much, as I will be on holiday, as well.
+
+  - label: Introduction
+    type: phase
+    info: Placeholder description of the introduction.
+    blocks:
+      - from: 2027-01-04
+        until: 2027-02-01
+        title: Writing the introduction
+        info: TBD.
+    breaks:
+      - from: 2026-12-08
+        until: 2026-12-31
+        title: Exam and holiday break
+        info: No work is expected during this time. However, if that suits your schedule better, the group is, of course, allowed to organize themselves to complete certain parts during this time. However, I will not be able to assist much, as I will be on holiday, as well.
+
+  - label: Method
+    type: phase
+    info: Placeholder description of the method section.
+    blocks:
+      - from: 2027-02-02
+        until: 2027-02-18
+        title: Writing the method section
+        info: You can start working on the method section before this, as well.
+
+  - label: Results
+    type: phase
+    info: Placeholder description of the results section.
+    blocks:
+      - from: 2027-02-19
+        until: 2027-03-11
+        title: Analysis & results
+        info: TBD.
+
+  - label: Group draft
+    type: phase
+    info: Placeholder description of the results section.
+    blocks:
+      - from: 2027-03-12
+        until: 2027-03-21
+        title: Draft of group report
+        info: TBD.
+      - from: 2027-04-05
+        until: 2027-05-03
+        title: Draft of group report
+        info: TBD.
+    breaks:
+      - from: 2027-03-22
+        until: 2027-03-31
+        title: Exam and holiday break
+        info: No work is expected during this time. However, if that suits your schedule better, the group is, of course, allowed to organize themselves to complete certain parts during this time. However, I will not be able to assist much, as I will be on holiday, as well.
+
+
+  - label: Discussion
+    type: phase
+    info: Placeholder description of the discussion.
+    blocks:
+      - from: 2027-03-12
+        until: 2027-03-21
+        title: Writing the discussion
+        info: TBD.
+      - from: 2027-04-05
+        until: 2027-05-03
+        title: Writing the discussion
+        info: TBD.
+    breaks:
+      - from: 2027-03-22
+        until: 2027-03-31
+        title: Exam and holiday break
+        info: No work is expected during this time. However, if that suits your schedule better, the group is, of course, allowed to organize themselves to complete certain parts during this time. However, I will not be able to assist much, as I will be on holiday, as well.
+
+
+  - gap: true   # empty spacer row
+
+  - label: Peer feedback
+    type: task
+    blocks:
+      - from: 2027-01-25
+        until: 2027-01-29
+        title: Peer feedback
+        info: TBD.
+
+  - label: Presentation
+    type: task
+    blocks:
+      - from: 2027-04-01
+        until: 2027-04-16
+        title: Presentation
+        info: The final presentation will likely be scheduled sometime between these dates. Right now all information we have is that is is in the "beginning of April 2027".
+
+  - gap: true   # empty spacer row
+
+  - label: Meetings
+    type: meeting
+    blocks:
+      - date: 2026-11-03
+        title: "Meeting 1: Kick-off"
+        info: |
+          **Time:** 11:00 - 12:15
+          **Location:** M 811. This is on the eighth floor of the <a href='https://www.tilburguniversity.edu/contact/campus-map-and-buildings/montesquieu' target='_blank'>Montesquieu building</a>.
+          
+          **Preparation:**
+          1. Complete <a href='https://app.wooclap.com/KLEFZCA/questionnaires/6ae1f4f085396f0d8bdc969b' target='_blank'>this questionnaire</a>.
+          2. Please read the study description once again. Think about which constructs you find interesting, and prepare any questions that may arise during this process.
+
+          **Meeting slides:** Download link will be added here after the meeting.
+      - date: 2026-12-04
+        title: "Meeting 2: Research proposal"
+        info: |
+          **Time:** 14:00 - 15:15 (tentatively)
+          **Location:** TBD
+
+          **Preparation:**
+          TBD
+
+          **Other meeting options:**
+          Thursday (December 3): 13:00 - 14:15, 13:30 - 14:45, or 16:00 - 17:15.
+          Friday (December 4): 14:30 - 15:45, or 15:00 - 16:15.
+
+          **Meeting slides:** Download link will be added after the meeting.
+      - date: 2027-02-02
+        title: "Meeting 3: Introduction"
+        info: |
+          **Time:** TBD
+          **Location:** TBD
+
+          **Preparation:**
+          TBD
+
+          **Meeting slides:** Download link will be added after the meeting.
+      - date: 2027-02-19
+        title: "Meeting 4: Method"
+        info: |
+          **Time:** TBD
+          **Location:** TBD
+
+          **Preparation:**
+          TBD
+
+          **Meeting slides:** Download link will be added after the meeting.
+      - date: 2027-03-12
+        title: "Meeting 5: Results and completion"
+        info: |
+          **Time:** TBD
+          **Location:** TBD
+
+          **Preparation:**
+          TBD
+
+          **Meeting slides:** Download link will be added after the meeting.
+
+  - label: Deadlines
+    type: deadline
+    blocks:
+      - date: 2026-11-20
+        title: "Deadline: Contract & non-disclosure"
+        info: "**Submit via:** Canvas"
+      - date: 2026-12-01
+        title: "Deadline: Proposal"
+        info: 
+        - "**Submit by:** 17:00"
+        - "**Submit via:** E-mail"
+      - date: 2027-02-01
+        title: "Deadline: Introduction"
+        info: 
+        - "**Submit by:** 10:00"
+        - "**Submit via:** E-mail"
+      - date: 2027-02-18
+        title: "Deadline: Method"
+        info: 
+        - "**Submit by:** 10:00"
+        - "**Submit via:** E-mail"
+      - date: 2027-03-11
+        title: "Deadline: Results"
+        info: 
+        - "**Submit by:** 10:00"
+        - "**Submit via:** E-mail"
+      - date: 2027-04-08
+        title: "Deadline: Draft of group report"
+        info: 
+        - "**Submit by:** 17:00"
+        - "**Submit via:** E-mail"
+      - date: 2027-04-15
+        title: "Deadline: Discussion outline"
+        info: 
+        - "**Submit by:** 17:00"
+        - "**Submit via:** E-mail"
+      - date: 2027-05-03
+        title: "Deadline: Individual and group report"
+        info: 
+        - "**Submit by:** 23:59"
+        - "**Submit via:** Canvas"

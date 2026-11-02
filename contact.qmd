@@ -1,0 +1,31 @@
+# Contact Details {.unnumbered}
+
+## Email
+
+For all questions and inquiries, please use the email below:
+
+::: {style="text-align: center;"}
+[**l.soric\@tilburguniversity.edu**]{style="background-color: #ae6e00; color: white; padding: 2px 6px; border-radius: 3px;"}
+:::
+
+### What to Include in RSiP-Related Emails?
+
+It is important to include as much detail as possible so that the back-and-forth exchange is limited and you get an adequate response as soon as possible.
+
+For example, if your question is related to certain sections, for each section you can include:
+
+- **Introduction:** relevant context, references, what you already have, what you need...
+
+- **Methods:** what you have done so far, what options you considered...
+
+- **Results:** what you want to achieve, what you did to get there, what you would like me to do to help you...
+
+- **Discussion:** relevant context, references, arguments you are unsure about...
+
+This list is not exhaustive, and can vary per needs. However, in all project-related exchanges make sure to highlight **what you have tried so far** and **what you need help with.** If you have not tried anything yet, it is likely my response would not be sufficient to solve your problem.
+
+### Reply frequency
+
+The teaching time allocated to me is *limited*. This means that apart from teaching RSIP, I have additional responsibilities with their own deadlines. Therefore, you can expect to receive a reply **any time within 5 working days\***. I will likely reply a lot sooner, but keep this in mind when planning your work. For example, if you only start working on a section a few days before the deadline and get stuck, it is possible you will not be able to get help on time.
+
+\* *If it has been longer than this, and I am not on holiday, please send me a reminder. However, sending reminders too early is prohibited and could affect your final grade (namely, the work attitude section in the rubric).*

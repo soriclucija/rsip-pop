@@ -1,0 +1,30 @@
+# Introduction and Schedule {.unnumbered}
+
+## Introduction
+
+Welcome! On this website, you will be able to find all materials needed for the successful completion of the Research Skills in Psychology (RSiP) course.
+
+This website was created by me, your supervisor - Lucija Sorić. It exists to simplify our workflows and offer a centralized platform that is easy to find (it is just one link!) and easy to share (still just one link!).
+
+Some parts of this website are static, and unlikely to undergo major change. For example, contact details will always remain the same.
+
+Other aspects, such as research materials, instructions, meeting summaries, and others, will be updated at the appropriate time. The [Frequently Asked Questions (FAQ) section](https://soriclucija.github.io/rsip-pop/faq.html) will be updated regularly, as more questions come in. This way, I am trying to ensure all of you can benefit from shared information, even if you were not the one to ask it.
+
+Thanks for reading and looking forward to working with you!
+
+## Schedule
+
+Scroll sideways to see the whole period. Click a coloured block to see what it involves.
+
+::: {.content-visible when-format="html"}
+```{=html}
+<div id="thesis-timeline" data-src="timeline/timeline.yml"></div>
+<script src="https://cdn.jsdelivr.net/npm/js-yaml@4/dist/js-yaml.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/marked@12/marked.min.js"></script>
+<script src="timeline/timeline.js"></script>
+```
+:::
+
+::: {.content-visible when-format="pdf"}
+The interactive schedule is available on the [course website](https://soriclucija.github.io/rsip-pop/).
+:::
