@@ -1,9 +1,9 @@
 # ---------------------------------------------------------------
-# Schedule data — edit this file, not the JS/CSS.
+# Schedule data  edit this file, not the JS/CSS.
 #
 # start / end:  first and last month shown (YYYY-MM).
 # Each month is drawn as 4 squares:
-#   days 1–7 → square 1, 8–14 → 2, 15–21 → 3, 22–end → 4
+#   days 1 to 7 → square 1, 8 to 14 → 2, 15 to 21 → 3, 22 to end → 4
 #
 # Blocks that span time:   from: 2026-11-02   until: 2026-12-04
 # Single-day items:        date: 2026-11-04
