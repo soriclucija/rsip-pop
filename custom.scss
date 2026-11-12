@@ -11,6 +11,7 @@ $font-family-sans-serif: "Scala Sans", "Inter", sans-serif;
 $headings-font-family: "Scala Sans", "Inter", sans-serif;
 $link-color: $gold;
 $headings-color: $navy;
+$line-height-base: 1.35;
 /*-- scss:rules --*/
 h1 {
   color: $gold;
@@ -225,4 +226,10 @@ body.quarto-dark .quarto-color-scheme-toggle .bi::before {
     font-weight: 600;
     margin-top: 0;
   }
+}
+
+.hanging {
+  padding-left: 2em;
+  text-indent: -2em;
+  overflow-wrap: anywhere;
 }

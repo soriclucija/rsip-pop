@@ -12,6 +12,7 @@ book:
     logo: uvt.png
   chapters:
     - index.qmd
+    - topic.qmd
     - part: "Process"
       chapters:
         - proposal.qmd
