@@ -24,7 +24,7 @@ rows:
     info: |
     blocks:
       - from: 2026-11-03
-        until: 2026-12-01
+        until: 2026-12-07
         title: Writing the proposal
         info: |
           - Write a research proposal based on <a href='https://soriclucija.github.io/rsip-pop/proposal.html' target='_blank'>these instructions</a>.
@@ -37,14 +37,10 @@ rows:
     type: phase
     info: Placeholder description of the data collection phase.
     blocks:
-      - from: 2026-12-04
-        until: 2026-12-06
-        title: Start data collection
-        info: Send out the Qualtrics survey to a small group.
       - from: 2027-01-04
         until: 2027-01-31
         title: Continue data collection
-        info: Continue data collection. If the full sample is collected before the expected end-date, data collection is stopped. Otherwise it continues until 31 January 2027, or longer in case of insufficient sample.
+        info: Send out the Qualtrics survey to a sufficient number of participants. If the full sample is collected before the expected end-date, data collection is stopped. Otherwise it continues until 31 January 2027, or longer in case of insufficient sample.
     breaks:
       - from: 2026-12-08
         until: 2026-12-31
@@ -155,18 +151,21 @@ rows:
           2. Please read the study description once again. Think about which constructs you find interesting, and prepare any questions that may arise during this process.
 
           **Meeting slides:** You can download the slides <a href='https://raw.githubusercontent.com/soriclucija/rsip-pop/main/presentations/1-meeting-rsip-26.pdf' target='_blank'>here</a>.
-      - date: 2026-12-04
+      - date: 2026-12-08
         title: "Meeting 2: Research proposal"
         info: |
-          **Time:** 14:00 - 15:15 (tentatively)
-          **Location:** TBD
+          **Time:** 13:00 - 14:00
+          **Location:** Room S2, Simon Building (ground floor)
 
           **Preparation:**
-          TBD
-
-          **Other meeting options:**
-          Thursday (December 3): 13:00 - 14:15, 13:30 - 14:45, or 16:00 - 17:15.
-          Friday (December 4): 14:30 - 15:45, or 15:00 - 16:15.
+          1. Send the final version of the proposal by 7 December 2026 at 10:00 in Word format by email.
+          2. Prepare a **short** presentation about your proposal. Guidelines:
+          - max 5 slides including title
+          - visually include the research question, a **graphical** hypothesis (e.g., if you are comparing two groups you can show an expected difference in scores with a hypothetical bar plot, or if you want to do a mediation analysis you should show a mediation model with expected directions of cause such as x increases y) and (at least) three key arguments (e.g., important findings from three papers)
+          - verbally prepare to explain your idea by shortly introducing the background, indicating the research question and explaining your hypotheses
+          - you can include any questions/doubts about the idea on relevant slides
+          - the presentation should last 5-7 minutes, if not less
+          3. Ensure all members of the group sufficiently understand the proposal so that any question that arises can be answered by any member.
 
           **Meeting slides:** Download link will be added after the meeting.
       - date: 2027-02-02
@@ -206,11 +205,12 @@ rows:
       - date: 2026-11-20
         title: "Deadline: Contract & non-disclosure"
         info: "**Submit via:** Canvas"
-      - date: 2026-12-01
+      - date: 2026-12-07
         title: "Deadline: Proposal"
         info: 
-        - "**Submit by:** 17:00"
+        - "**Submit by:** 10:00"
         - "**Submit via:** E-mail"
+        - "**Submission format:** Word document"
       - date: 2027-02-01
         title: "Deadline: Introduction"
         info: 
