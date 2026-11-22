@@ -25,7 +25,7 @@
   const fmt = (d) => d.toLocaleDateString("en-GB", { day: "numeric", month: "long", year: "numeric" });
   function fmtRange(a, b) {
     if (!b || a.getTime() === b.getTime()) return fmt(a);
-    return `${fmt(a)} – ${fmt(b)}`;
+    return `${fmt(a)} - ${fmt(b)}`;
   }
 
   function el(tag, cls, attrs = {}) {
